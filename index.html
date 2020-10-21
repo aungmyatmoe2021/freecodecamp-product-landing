@@ -1,0 +1,245 @@
+<html>
+  <head>
+    <title>Product Landing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+            font-family: 'Roboto Slab', serif;
+        }
+
+        .main{
+            padding: 16px;
+            margin-top: 30px;
+            height:1500px;
+            text-align:center;
+        }
+
+        .navbar{
+            background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar a{
+            float: right;
+            display: block;
+            color: black;
+            text-align: center;
+            padding-top: 20px;
+            padding-right: 100px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .navbar img{
+            float: left;
+            height: 50px;
+            width: 100px;
+            padding-top: 15px;
+        }
+
+        .caption{
+            border:1px solid black;
+            flot:left;
+        }
+
+        .main h1{
+            padding-top:20px;
+            padding-bottom:0px;
+            font-size: 25px;
+        }
+
+        .main input[type="text"]{
+            width: 250px;
+            height: 20px;
+            margin-bottom: 20px;
+        }
+
+        .main a{
+            display:block;
+            width: 150px;
+            background-color: #F1C40F;
+            color: black;
+            margin: 0 auto;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .content{
+            padding-top:0px;
+            padding-bottom:0px;
+            margin-top:-30px;
+            margin-bottom:-30px;
+        }
+
+        .content img{
+            float:left;
+            width: 50px;
+            height:50px;
+            padding-top: 50px;
+            padding-left: 150px;
+            padding-right: 20px;
+        }
+
+        .content h2{
+            display:block;
+            font-size: 20px;
+            margin-top:50px;
+            padding-top: 50px;
+            text-align:left;
+        }
+
+        .content h3{
+            font-size: 15px;
+            margin-top:-40px;
+            padding-right:100px;
+            text-align:left;
+        }
+
+        .videoContent{
+            margin-top:50px;
+        }
+
+
+        .tenor{
+            border:1px solid black;
+            float:left;
+            margin-top:50px;
+            margin-left: 200px;
+            margin-right:-150px;
+            width:250px;
+        }
+
+        .level{
+            background-color: lightgray;
+            height:30px;
+            padding-top:10px;
+        }
+
+        .th2{
+            margin-top:10px;
+            margin-bottom:0px;
+        }
+
+        .tul{
+            margin-top:10px;
+            line-height:2rem;
+        }
+
+        li{
+            list-style-type:none;
+        }
+
+        .ta{
+            display:block;
+            width: 150px;
+            background-color: #F1C40F;
+            color: black;
+            margin: 0 auto;
+            margin-bottom:20px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer{
+            float:right;
+            display:block;
+            margin-top:30px;
+            margin-right:180px;
+        }
+
+        .footer a{
+            float: right;
+            display: block;
+            color: black;
+            background:url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+            text-align: center;
+            text-decoration: none;
+            font-size: 17px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="https://keshavgoyal2807.github.io/product_landing_page/image.png" alt="trombone"/>
+      <a href="#">Features</a>
+      <a href="#">How It Works</a>
+      <a href="#">Pricing</a>
+    </div>
+    <div class="main">
+      <h1>Handcrafted, home-made masterpieces</h1>
+      <input type="text" placeholder="Enter your email address" />
+      <a href="#">GET STARTED</a>
+      <div class="content">
+      <img src="https://image.flaticon.com/icons/png/512/33/33295.png" alt="" />
+        <h2>Premium Materials</h2><br/>
+        <h3>Our trombones use the shiniest brass which is source locally. This will increase the longevity of your purchase.</h3>
+    </div>
+      <div class="content">
+      <img src="https://cdn1.iconfinder.com/data/icons/delivery-logistics-1/512/Logistics-06-512.png" alt="" />
+        <h2>Fast Shipping</h2><br/>
+        <h3>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</h3>
+    </div>
+      <div class="content">
+      <img src="https://www.pinclipart.com/picdir/big/165-1652158_battery-charging-icon-charging-battery-icon-clipart.png" alt="" />
+        <h2>Quality Assurance</h2><br/>
+        <h3>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</h3>
+    </div>
+      <div class="videoContent">
+        <iframe
+        id="video"
+        height="315" width="500"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      </div>
+      <div class="tenor">
+        <div class="level">TENOR TROMBONE</div>
+        <h2 class="th2">$600</h2>
+        <ul class="tul">
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+        <a class="ta" href="#">SELECT</a><br/>
+      </div>
+      <div class="tenor">
+        <div class="level">BASS TROMBONE</div>
+        <h2 class="th2">$900</h2>
+        <ul class="tul">
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+        <a class="ta" href="#">SELECT</a><br/>
+      </div>
+      <div class="tenor">
+        <div class="level">VALUE TROMBONE</div>
+        <h2 class="th2">$1200</h2>
+        <ul class="tul">
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+        <a class="ta" href="#">SELECT</a><br/>
+      </div>
+      <div class="footer">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a><br/>
+        Copyright 2020 Original Trombones Modified by Aung Myat Moe.
+      <div>
+    </div>
+  </body>
+</html>
